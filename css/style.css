@@ -324,6 +324,9 @@ body{
   margin-bottom: 8px;
   text-decoration: none;
 }
+.fotr-item-links:hover{
+  opacity: 0.6;;
+}
 .fotr-cont{
   font-size: 20px;
   margin-top: 56px;
