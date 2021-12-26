@@ -48,13 +48,12 @@ body{
   padding: 8px 16px;
   color: #fff;
   background-color: #00bafc;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 5px;
   text-decoration: none;
   border: none;
   display: block;
-  /* width: 169px;
-  height: 40px; */
+  width: 169px;
 }
 
 /* End of header */
@@ -228,16 +227,12 @@ body{
 }
 .boxes{
   background-color: #00bafc;
-
 }
 .formm{
   padding-bottom: 64px;
 }
 .option{
   width: 170px;
-}
-.select{
-  width: 100px;
 }
 .boxes-content{
   width: 203px;
@@ -267,7 +262,6 @@ body{
   margin-top: 100px;
   background-color: #fff;
 }
-
 .input{
   width: 170px;
   height: 25px;
@@ -277,9 +271,8 @@ body{
   margin-bottom: 15px;
   padding: 10px;
 }
-
 .select{
-  width: 220px;
+  width: 170px;
   height: 40px;
   background-color: rgb(245, 243, 243);
   border-radius: 5px;
@@ -297,7 +290,6 @@ body{
 .fotr{
   background-color: #191919;
 }
-
 .footer-contet{
   font-size: 20px;
   color: #fff;
@@ -360,6 +352,7 @@ body{
 }
 .footer-links{
   display: flex;
+  margin-bottom: 16px;
  }
 .footer-links::before{
   content: "";
@@ -369,11 +362,13 @@ body{
   background-image: url(../img/telegram.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 10px;
 }
 .footer-linkss{
   display: flex;
+  margin-bottom: 16px;
 }
-.footer-linkss{
+.footer-linkss::before{
   content: "";
   display: block;
   width: 25px;
@@ -381,11 +376,13 @@ body{
   background-image: url(../img/facebook.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 10px;
 }
 .footer-linksss{
   display: flex;
+  margin-bottom: 16px;
 }
-.footer-linksss{
+.footer-linksss::before{
   content: "";
   display: block;
   width: 25px;
@@ -393,6 +390,7 @@ body{
   background-image: url(../img/instagram.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 10px;
 }
 
 
